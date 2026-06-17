@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>For My Piggy, Mew 💖</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="petals"></div>
+
+<section class="screen active" id="s1">
+<h1>🌷 For My Piggy, Mew 🌷</h1>
+<p>สวัสดีหมูอุ้ดดด 💌</p>
+<p>ถ้าแกกำลังอ่านอยู่... แปลว่าแกอายุ 18 ปีแล้วนะ 🎂🤍</p>
+<button onclick="next(2)">เริ่มต้นการผจญภัย ✨</button>
+</section>
+
+<section class="screen" id="s2">
+<h2>🎁 มีของขวัญสำหรับแกนะ</h2>
+<div class="gift" onclick="next(3)">🎁</div>
+<p>กดเปิดกล่องของขวัญ</p>
+</section>
+
+<section class="screen" id="s3">
+<h2>📸 จุดเริ่มต้นของเรา</h2>
+<img src="assets/couple.jpg" class="photo">
+<p>จากคนแปลกหน้าในเกม กลายเป็นคนที่เค้าคิดถึงทุกวัน 🤍</p>
+<button onclick="next(4)">ต่อไป</button>
+</section>
+
+<section class="screen" id="s4">
+<h2>🌸 หมูอ้วนนคนเก่งของเค้า</h2>
+<img src="assets/mew.jpg" class="photo">
+<p>ขอบคุณที่เข้ามาเป็นความสุขของเค้านะ 🌷</p>
+<button onclick="next(5)">ต่อไป</button>
+</section>
+
+<section class="screen" id="s5">
+<h2>🐷 หมูอุ้ดดดของเค้า</h2>
+<img src="assets/funny.jpg" class="photo">
+<p>หมูอุ้ดดดน่ารักที่สุดในโลก 💖</p>
+<button onclick="next(6)">ต่อไป</button>
+</section>
+
+<section class="screen" id="s6">
+<h2>💌 ถึงหมูอุ้ดดด</h2>
+<div id="letter"></div>
+<button onclick="next(7)">อ่านจบแล้ว 💖</button>
+</section>
+
+<section class="screen" id="s7">
+<h1>🎂 HAPPY 18TH BIRTHDAY</h1>
+<h1>MEW 💖</h1>
+<p>18 มิถุนายน วันสำคัญของหมูอุ้ดดด</p>
+<button onclick="hug()">🤍 รับกอดจากเค้า 🤍</button>
+<h2 id="end"></h2>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

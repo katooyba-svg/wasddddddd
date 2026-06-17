@@ -1,0 +1,11 @@
+
+body{margin:0;font-family:Arial,sans-serif;background:linear-gradient(180deg,#ffd8ea,#fffafc);overflow:hidden;color:#444}
+.screen{display:none;height:100vh;align-items:center;justify-content:center;flex-direction:column;text-align:center;padding:20px}
+.active{display:flex}
+button{padding:14px 26px;border:none;border-radius:25px;background:#ff7caf;color:#fff;font-size:16px;cursor:pointer}
+.photo{width:90%;max-width:350px;border-radius:20px;box-shadow:0 10px 25px rgba(0,0,0,.15)}
+.gift{font-size:100px;cursor:pointer;animation:bounce 1.5s infinite}
+#letter{max-width:700px;background:white;padding:20px;border-radius:20px;line-height:1.9}
+.petal{position:absolute;top:-30px;animation:fall linear forwards}
+@keyframes bounce{50%{transform:translateY(-12px)}}
+@keyframes fall{to{transform:translateY(110vh);opacity:.2}}
